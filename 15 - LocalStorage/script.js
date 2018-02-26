@@ -27,4 +27,8 @@ function populateList(plates = [], platesList) {
     }).join('');
 }
 
-addItems.add('submit', addItem );
+
+
+addItems.addEventListener('submit', addItem );
+
+populateList(items, itemsList);
